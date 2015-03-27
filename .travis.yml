@@ -8,3 +8,6 @@ php:
 
 
 sudo: false
+
+env:
+  - DB=mysql
