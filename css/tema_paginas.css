@@ -1,0 +1,20 @@
+#titulo_pagina{
+	width: 70%;
+	height: 50px;
+	text-align: left;
+	border-bottom: 1px solid silver;
+
+}	
+#titulo_pagina h2{
+	font-family: 'Rokkitt', sans-serif ;
+	margin-left: 10px;
+	vertical-align: bottom;
+	line-height: 70px;
+	font-size: 1.5em;
+}
+#cuerpo_pagina {
+	margin-top: 15px;
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 13px;
+	text-align: justify;
+}

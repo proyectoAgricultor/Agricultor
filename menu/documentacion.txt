@@ -1,0 +1,16 @@
+Modulo de Menu:
+
+Este modulo se pega al CMS de Solucionclic.com el modulo tiene dependencias, que necesita para correr son:
+- libreria granlibreria.php esta apunta a las demas librerias que contienen conecciones o cualquier otra funcion que se necesite.
+- funcion verificar_texto($string), recibe un texto y le quita todas los caracteres especiales y la injeccion sql. Esta debe de ser apuntada desde la granlibreria.php, 
+- funcion conecbase(), conecta con la base de datos y retorna la coneccion sqli, esta debe de ser apuntada desde granlibreria.php
+
+- Si se tiene el modulo de seguridad instalado anteriormente se debe de ir a index y colocar la variable " modulo_seguridad_activo = 1 ", especificar en "$usuario = $_SESSION['nombre de variable id de usuario']", descomentar SESSION_START(); y por ultimo la ruta donde deberia de estar el buscar del modulo de seguridad segun el modulo menu es: ../seguridad/busqueda.php esto esta especificado en funcionalidad_basica_gestor.js en la parte superior esta la variable "ruta_busqueda_modulo_seguridad" si cambia la ruta se debe de cambiar aqui de no ser así fallara la busqueda de acceso si la pagina no es publica. 
+NOTA: Si no se tiene el modulo de seguridad ir a index y colocar variable " modulo_seguridad_activo = 0 " y 
+" $usuario = 1 ";
+
+- Si se agrega la libreria funciones.php que contiene el modulo "menu" se puede tener acceso a la funcion traer_menu que retorna un STRING con el menu, funcional y con la seguridad activa si el modulo estuviera instalado y en uso.
+
+- Para que tenga el tema default el menu debe de hacer un link de css hacia el css "tema_base_menu.css", con esto tendran la apariencia default para el menu.
+
+- En crear_tabla.sql, esta el script para crear la tabla tanto si se posee modulo de seguridad como si no se tiene el modulo activo.

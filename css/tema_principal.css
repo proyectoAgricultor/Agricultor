@@ -1,0 +1,164 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-size: 1em;
+	
+}
+body{
+	background: url("http://pasteleriaja.com/apariencia/background.jpg");
+	
+}
+h2{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: 'Rouge Script', cursive;
+}
+#contenedor_principal{
+	width: 85%;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	background: white;
+	box-shadow: 0px 0px 10px rgba(45,45,45,0.5);
+}
+#encabezado_principal{
+	width: 100%;
+}
+#contenedor_baner{
+	
+	width: 100%;
+	background: url("http://pasteleriaja.com/apariencia/fondo_encabezado.jpg");
+	background-repeat: repeat-x;
+}
+#llamar_login{
+	width: 100%;
+	height: 50px;
+	line-height: 25px;
+	background: rgb(63,89,124);	
+	
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	cursor: hand;
+	color: white;
+}#menu_reducido{
+	width: 50px;
+	float: left;
+	margin-left: 5px;
+	display: none;
+}
+#llamar_login:hover{
+	background: rgb(70,95,124);	
+	cursor: hand;
+}
+#contenedor_logo{
+	width: 230px;
+	margin: 15px auto;
+	
+}
+
+#contenedor_login{
+	width: 400px;
+	height: 250px;
+	background: white;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	margin-top: 50px;
+	z-index: 99;
+	display: none;
+}
+#contenedor_login label, #contenedor_login input{
+	display: inline-block;
+	min-width: 150px;
+	width: 40%;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-left: 5px;
+}#contenedor_login input{
+	
+	height: 25px;
+	line-height: 25px;
+}#boton_identificarse{
+	margin-top: 25px;
+	width: 100%;
+	height: 30px;
+	background: rgb(41,41,41);
+	line-height: 30px;
+	color: white;
+	text-align: center;
+}#contenedor_login h2{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+
+}#cerrar_login{
+	position: relative;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	font-weight: bold;
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	cursor: hand;
+}
+
+
+#adorno_baner{
+	width: 100%;
+	position: absolute;
+	background: url(../apariencia/banderin.png);
+	height: 75px;
+	z-index: 3;
+	margin-top:125px; 
+}
+#cuerpo_principal{
+	width: 100%;
+	min-height: 450px;
+  	height: auto !important;
+  	height: 450px;
+	
+}
+#contenido_principal{
+	width: 85%;
+	
+	
+	margin: auto;
+	margin-bottom: 20px;
+	
+}
+#pie_principal{
+	width: 100%;
+	height: 100px;
+	
+	background:  url('../apariencia/pie.png') repeat-x, rgb(253,253,150);
+	
+	color: rgb(130,105,83);
+	border-top: 0px solid rgb(41,41,41);
+	text-align: center;
+	font-family: 'Rouge Script', cursive;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#info_left, #info_center, #info_right{
+	width: 32%;
+	height: 50px;
+	display: inline-block;
+	margin-top: 50px;
+	vertical-align: top;
+	line-height: 50px;
+	
+}
+#info_left{
+	text-align: left;
+
+}#info_center{
+	text-align: center;
+}#info_right{
+	text-align: right;
+}
