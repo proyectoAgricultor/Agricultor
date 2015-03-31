@@ -8,9 +8,9 @@
 		protected $forma = "asc";
 		function base(){
 			$host="localhost";
-			$base="pasteleria_ja";
-			$usuario="pasteleria_front";
-			$password="HrLxYj3U9ufmG4KS";
+			$base="agrappserv";
+			$usuario="agrappserv";
+			$password="agrappserv";
 			$enlace = new mysqli($host, $usuario, $password,$base);           
 			$this->coneccion = $enlace;
 		}
