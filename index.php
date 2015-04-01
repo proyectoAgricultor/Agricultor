@@ -1,11 +1,14 @@
 <?php
-	require_once("$_SERVER[DOCUMENT_ROOT]/granlibreria.php");
-	require_once("$_SERVER[DOCUMENT_ROOT]/producto/funciones.php");
+	require_once("$_SERVER[DOCUMENT_ROOT]/Agricultor/granlibreria.php");
+	//require_once("$_SERVER[DOCUMENT_ROOT]/Agricultor/producto/funciones.php");
 	$cdb = conecbase();
 	
 		
 			$sql = "SELECT id, titulo, informacion, catalogo from pagina where id = '".regresar_numero("a3")."'";
 			$exe = $cdb->query($sql);
+                        
+                        echo $exe->fetch_array();
+                        
 			if($exe->num_rows>0){
 				$dat = $exe->fetch_array();
 				encabezado($dat['titulo'],"");

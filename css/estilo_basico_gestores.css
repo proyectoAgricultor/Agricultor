@@ -38,8 +38,10 @@
 	width: 50%;
 	min-width: 200px;
 	max-width: 500px;
-	border-bottom: 
-}#boton_ejecutar{
+	border-bottom: 10px;
+}
+
+#boton_ejecutar{
 	width: 100%;
 	background: rgb(43,87,151);
 	height: 30px;

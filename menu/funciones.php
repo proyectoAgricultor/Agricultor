@@ -1,6 +1,6 @@
 <?php 	
-	require_once("$_SERVER[DOCUMENT_ROOT]/granlibreria.php");
-	require_once("$_SERVER[DOCUMENT_ROOT]/seguridad/funciones.php");
+	require_once("$_SERVER[DOCUMENT_ROOT]/Agricultor/granlibreria.php");
+	require_once("$_SERVER[DOCUMENT_ROOT]/Agricultor/seguridad/funciones.php");
 	
 	
 	function traer_menu_admin(){
