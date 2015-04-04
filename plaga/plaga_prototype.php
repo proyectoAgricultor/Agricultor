@@ -1,5 +1,6 @@
 <?php
 require_once './plaga.php';
+require_once './funciones.php';
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -90,14 +91,13 @@ require_once './plaga.php';
                     <td>
                         <label for=\"id\">Tipo Plaga: </label>
                     </td>
-                    <td>
-                        <?php /*aqui debo insertar el tipo plaga*/ ?>                        
-                        <select \"".$enable."\">
-                            <option value=\"1\">Aerea</option>
-                            <option value=\"2\">Acuatica</option>
-                            <option value=\"3\">Terreste</option>
-                        </select>
-                    </td>
+                    <td>";
+        if($mode==="create"){
+            echo selectorPlaga($enable);
+        }else{
+            echo selectorTipoPlagaByID($enable, $prototype->getTipoPlaga());
+        }
+        echo "           </td>
                 </tr>
             </table>";
     }

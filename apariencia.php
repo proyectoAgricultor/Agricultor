@@ -39,9 +39,9 @@
 			    <script src="http://pasteleriaja.com/menu/menu_responsive.js"></script>
 			    <script type="text/javascript" src="http://pasteleriaja.com/producto/funcionalidad_producto.js"></script>
 			    
-			    <script type="text/javascript" src="http://pasteleriaja.com/slide/funcionamiento_slide_basico.js"></script>
+<!--			    <script type="text/javascript" src="http://pasteleriaja.com/slide/funcionamiento_slide_basico.js"></script>-->
 			    
-				<link rel="stylesheet" type="text/css" href="http://pasteleriaja.com/slide/estilo_slide.css">
+<!--				<link rel="stylesheet" type="text/css" href="http://pasteleriaja.com/slide/estilo_slide.css">-->
 				<script type="text/javascript">
 					$(document).ready(function(){
 						//le quita el border a la ultima opcion del menu

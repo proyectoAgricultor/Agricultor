@@ -1,140 +1,140 @@
 #contenedor_botonera{
-	width: 100%;
-	background: rgb(45,45,45);
-	height: 35px;
-	text-align: center;
+    width: 100%;
+    background: rgb(45,45,45);
+    height: 35px;
+    text-align: center;
 }.opciones_botonera{
-	min-width: 100px;
-	height: 35px;
-	color: white;
-	display: inline-block;
-	line-height: 35px;
-	cursor: hand;
-	margin-left: 2px;
+    min-width: 100px;
+    height: 35px;
+    color: white;
+    display: inline-block;
+    line-height: 35px;
+    cursor: hand;
+    margin-left: 2px;
 }.opciones_botonera:hover{
-	color: rgb(180,180,180);
-  			    
+    color: rgb(180,180,180);
+
 }#contenedor_buscador, .contenedor_buscar, .contenedor_buscador{
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
-	margin: 25px auto;
-	z-index: 999;
-	
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 25px auto;
+    z-index: 999;
+
 }#contenedor_datos, #contenedor_buscador, .contenedor_buscar, .contenedor_buscador{
-	display: none;
-	margin-top: 25px;
+    display: none;
+    margin-top: 25px;
 }#contenedor_datos label{
-	width: 40%;
-	min-width: 150px;
-	max-width: 250px;
-	display: inline-block;
-	margin-left: 10px;
+    width: 40%;
+    min-width: 150px;
+    max-width: 250px;
+    display: inline-block;
+    margin-left: 10px;
 
 }#contenedor_datos input, #contenedor_datos label, #contenedor_datos textarea{
-	height: 30px;
-	margin-top: 10px;
-	line-height: 30px;
+    height: 30px;
+    margin-top: 10px;
+    line-height: 30px;
 }
 .descripcion{
-	width: 50%;
-	min-width: 200px;
-	max-width: 500px;
-	border-bottom: 10px;
+    width: 50%;
+    min-width: 200px;
+    max-width: 500px;
+    border-bottom: 10px;
 }
 
 #boton_ejecutar{
-	width: 100%;
-	background: rgb(43,87,151);
-	height: 30px;
-	text-align: center;
-	margin-top: 25px;
-	color: white;
-	line-height: 30px;
-	cursor: hand;
+    width: 100%;
+    background: rgb(43,87,151);
+    height: 30px;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    line-height: 30px;
+    cursor: hand;
 }.codigo{
-	width: 40px;
-	line-height: 40px;
+    width: 40px;
+    line-height: 40px;
 }
 #contenedor_buscador label, .contenedor_buscar label, .contenedor_buscador label{
-	width: 40%;
-	min-width: 150px;
-	max-width: 250px;
-	display: inline-block;
-	margin-left: 10px;
+    width: 40%;
+    min-width: 150px;
+    max-width: 250px;
+    display: inline-block;
+    margin-left: 10px;
 
 }#contenedor_buscador input, #contenedor_buscador label, .contenedor_buscar input, .contenedor_buscar label, .contenedor_buscador label, .contenedor_buscador input{
-	height: 30px;
-	margin-top: 10px;
-	line-height: 30px;
-	width: 48%;
+    height: 30px;
+    margin-top: 10px;
+    line-height: 30px;
+    width: 48%;
 }#contenedor_buscador .boton_buscar{
-	width: 10%;
-	margin-left: 5px;
+    width: 10%;
+    margin-left: 5px;
 }
 #contenedor_buscador #realizar_busqueda{
-	width: 10%;
-	margin-left: 5px;
+    width: 10%;
+    margin-left: 5px;
 }
 #resultado_busqueda, .resultado_buscar, .resultado_buscador{
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
-	background: rgb(41,41,41);
-	width: 100%;
-	min-height: 200px;
-	margin-top: 25px;
-	color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background: rgb(41,41,41);
+    width: 100%;
+    min-height: 200px;
+    margin-top: 25px;
+    color: white;
 }
 .opcion_resultado{
-	border-bottom: 1px solid silver
+    border-bottom: 1px solid silver
 }
 #contenedor_multiples_accesos{
-	width: 94%;
-	height: 200px;
-	overflow: auto;
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
-	margin: auto;
+    width: 94%;
+    height: 200px;
+    overflow: auto;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: auto;
 }.linea_opciones_multiples{
-	width: 100%;
-	height: 30px;
+    width: 100%;
+    height: 30px;
 }
 #agregar_linea{
-	width: 150px;
-	float: right;
-	height: 30px;
-	background: rgb(43,87,151);
-	text-align: center;
-	line-height: 30px;
-	color: white;
+    width: 150px;
+    float: right;
+    height: 30px;
+    background: rgb(43,87,151);
+    text-align: center;
+    line-height: 30px;
+    color: white;
 
 }.linea_multiple_acceso{
-	width: 100%;
-	border-bottom: 1px solid silver;
+    width: 100%;
+    border-bottom: 1px solid silver;
 }.codigo_acceso{
-	display: inline-block;
-	width: 20%;
+    display: inline-block;
+    width: 20%;
 }.titulo_acceso{
-	display: inline-block;
-	width: 40%;
+    display: inline-block;
+    width: 40%;
 }.boton_buscar_acceso{
-	display: inline-block;
-	width: 15%;
-	height: 25px;
-	background: rgb(239,244,255);
-	text-align: center;
-	line-height: 25px;
+    display: inline-block;
+    width: 15%;
+    height: 25px;
+    background: rgb(239,244,255);
+    text-align: center;
+    line-height: 25px;
 }.boton_eliminar_linea_acceso{
-	display: inline-block;
-	width: 20%;
-	height: 25px;
-	line-height: 25px;
-	background: rgb(185,29,71);
-	color: white;
-	text-align: center;
+    display: inline-block;
+    width: 20%;
+    height: 25px;
+    line-height: 25px;
+    background: rgb(185,29,71);
+    color: white;
+    text-align: center;
 }.boton_buscar{
-	width: 100px;
-	height: 30px;
-	background: rgb(239,244,255);
-	text-align: center;
-	line-height: 30px;
-	display: inline-block;
-	margin-left: 10px;
-	box-shadow: 0 0 2px rgba(0,0,0,0.5); 
+    width: 100px;
+    height: 30px;
+    background: rgb(239,244,255);
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5); 
 }
