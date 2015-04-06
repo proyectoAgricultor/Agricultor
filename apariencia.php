@@ -1,6 +1,6 @@
 <?php 	session_start();
 	require_once("menu/funciones.php");
-	require_once("estadisticas/funciones.php");
+	//require_once("estadisticas/funciones.php");
 	require_once("granlibreria.php");
 
 	
@@ -14,12 +14,12 @@
 		
 		if(isset($_SESSION['id_usuario'])){
 			$usuario = $_SESSION['id_usuario'];
-			guardar_visita($pagina,$usuario);
+			//guardar_visita($pagina,$usuario);
 		}else{
-			guardar_visita($pagina,"");
+			//guardar_visita($pagina,"");
 			$usuario = "0";
 		}
-		?>
+		?>	
 			<!DOCTYPE HTML>
 			<html>
 			  <head>
@@ -39,9 +39,9 @@
 			    <script src="http://pasteleriaja.com/menu/menu_responsive.js"></script>
 			    <script type="text/javascript" src="http://pasteleriaja.com/producto/funcionalidad_producto.js"></script>
 			    
-			    <script type="text/javascript" src="http://pasteleriaja.com/slide/funcionamiento_slide_basico.js"></script>
+<!--			    <script type="text/javascript" src="http://pasteleriaja.com/slide/funcionamiento_slide_basico.js"></script>-->
 			    
-				<link rel="stylesheet" type="text/css" href="http://pasteleriaja.com/slide/estilo_slide.css">
+<!--				<link rel="stylesheet" type="text/css" href="http://pasteleriaja.com/slide/estilo_slide.css">-->
 				<script type="text/javascript">
 					$(document).ready(function(){
 						//le quita el border a la ultima opcion del menu
@@ -135,11 +135,11 @@
 				    <div id="cuerpo_principal">
 				    	<div id="contenido_principal">
 	<?php
-			if(verificar_acceso($usuario,$acceso)==0){
+			/*if(verificar_acceso($usuario,$acceso)==0){
 				echo "<br>No tiene acceso a esta opcion";
 				pie();
 				exit;
-			}
+			}*/
 	}
 	function pie(){
 		if(isset($_SESSION['id_usuario'])){
